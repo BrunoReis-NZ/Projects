@@ -7,5 +7,5 @@ previewBtn.addEventListener("click", () => {
 });
 
 sourceBtn.addEventListener("click", () => {
-  window.open("https://github.com/BrunoReis-NZ/Projects/tree/main/shopping-list");
+  window.open("https://github.com/BrunoReis-NZ/Projects/tree/main/keycodes-generator");
 });
