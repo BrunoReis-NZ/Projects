@@ -3,7 +3,7 @@ const previewBtn = document.getElementById("preview-btn");
 const sourceBtn = document.getElementById("source-btn");
 
 previewBtn.addEventListener("click", () => {
-  window.open("./links/index.html");
+  window.open("./app/index.html");
 });
 
 sourceBtn.addEventListener("click", () => {
