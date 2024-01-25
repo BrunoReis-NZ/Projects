@@ -1,0 +1,50 @@
+body {
+    font-family: 'Arial', sans-serif; /* Use a modern font */
+    background-color: #f4f4f4; /* Set a light background color */
+    margin: 0;
+    padding: 0;
+  }
+  
+  #container {
+    max-width: 800px; /* Set a maximum width for the container */
+    margin: 50px auto; /* Center the container with top and bottom margin */
+    background-color: #fff; /* Set a white background color */
+    padding: 20px; /* Add some padding to the container */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Add a subtle shadow to the container */
+  }
+  
+  #heading {
+    margin-left: 0; /* Align the heading to the left margin */
+  }
+  
+  #snapshot {
+    display: block;
+    margin: 20px auto; /* Center the image with top and bottom margin */
+    background-color: rgba(200, 200, 200, 0.8); /* Set a light gray background with high opacity */
+    padding: 10px; /* Add some padding to the image */
+  }
+  
+  #description, #preview, #source {
+    margin-left: 0; /* Align the descriptions and headings to the left margin */
+  }
+  
+  #preview-btn, #source-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  #preview-btn {
+    background-color: #2ecc71; /* Dark green color for the preview button */
+    color: black; /* White text color */
+  }
+  
+  #source-btn {
+    background-color: #3498db; /* Dark blue color for the source button */
+    color: #fff; /* White text color */
+  }
+  
